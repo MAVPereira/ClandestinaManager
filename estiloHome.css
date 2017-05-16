@@ -1,0 +1,208 @@
+body{
+	background-color: #EEEEEE;
+	font-family: futura md bt; 
+	
+}
+#id table{
+	color: #FFFFFF;
+}
+#id{
+	position: absolute;
+	top: 25%;
+	right: 15%;
+	border-width: medium;
+
+	border-left: solid ;
+	border-right: solid ;
+	border-color: rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+#cab1 img{ 
+float: left;
+width: 200px;
+margin: 17px 45% 0;
+}
+
+#cab1{	
+position: absolute;
+background-color:#38761d;
+top: 0px;
+left: 0px;
+width:100%;
+height:75px;
+
+}
+#cab2{
+position:absolute;
+left:0px;
+top:75px;
+background-color:#274e13;
+width:100%;
+height:25px;
+}
+/* texto menu2 */
+#cab2 ul{
+	text-align: center;
+	margin: 0;
+    padding:0px;
+    list-style:none;
+}
+#cab2 li { display: inline; }
+
+#cab2 ul li a { /*estilo menu2*/ 
+    padding: 2px 100px;
+    display: inline-block;    
+    text-decoration: none;
+	color: #FFFFFF;
+    
+}
+/*bloco do time e patrimonio*/
+#blocoTime{
+    position: absolute;
+    width: 430px;
+    height: 470px;
+    top: 20%;
+	left: 50%;
+    margin-left: -540px;
+}
+#seuTim{
+	position:absolute;
+    top:0px;
+	font-size: 50px;
+}
+#parte1{
+	position:absolute;
+    top: 20%;
+    width: 418px;
+	height: 362px;
+    background-color: #FFFFFF;
+	border-radius: 10px;
+    padding: 0;
+	box-shadow: 0 3px 0 0 #b9b9b9;
+}
+#infoTime h3{
+	margin:0;
+	padding-top: 2%;
+	text-align: center; 
+	font-size: 30px;
+}
+
+#infoTime{
+
+	height: 13%;
+	border-bottom:solid black 3px;
+}
+#gear{
+	position: absolute;
+	top: 2%;
+	right: 5%;
+	width: 38px;
+	height: 38px;
+}
+#escuUsua{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-125px;
+	margin-top:-130px;
+	width: 250px;
+	height: 250px;
+}
+#dadosTime{
+	position: absolute;
+	width: 100%;
+	height: 16%;
+	border-top: solid #DDDDDD 3px;
+	top: 82%;
+}
+#dadosTime table{
+	width: 100%;
+}
+#dadosTime td{
+	padding-top: 5px;
+	text-align: center;
+}
+#blocoMercRod{
+	position: absolute;
+	background-color: #000000;
+	top: 31.5%;
+	left: 50%;
+    margin-left: 100px;
+
+}
+#blocoMerc{
+	text-align: center;
+	position:absolute;
+	width: 490px;
+	height: 100px;
+	background-color: #009e0f;
+	border-radius: 10px;
+	padding: 0;
+	box-shadow: 0 3px 0 0 #b9b9b9;
+}
+#blocoMerc h1{ 
+padding-top: 9px;
+}
+#infoRod{
+position: absolute;
+width: 490px;
+height: 247px;
+top: 112px;
+background-color: #FFFFFF;
+border-radius: 10px;
+box-shadow: 0 3px 0 0 #b9b9b9;
+}
+#infoRod h1{
+text-align: center;
+margin: 0;
+}
+#infoRod h4{
+text-align: center;
+margin: 0;
+
+}
+#infoRod img{ 
+width: 100px;
+margin-top: 3%;
+margin-left: 40%
+}
+
+#infoRod button{
+	width: 250px;
+	height: 35px;
+	margin-top: 2%;
+	margin-left: 25%;
+	background-color: red;
+	border: solid black 2px;
+	box-shadow: 0 3px 0 0 #333333;
+	color: #FFFFFF;
+}
+
+#rodGeral{
+   margin: 0;
+   padding: 0;
+   position:absolute;
+   bottom:0;
+   left: 0;
+   width:100%;
+   height:35px;   /* Mesma Altura do Rodapé */
+   background:#38761d;
+   
+   
+}
+#rodGeral ul{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+    list-style:none;
+}
+#rodGeral li { display: inline; }
+
+#rodGeral ul li a { /*estilo menu2*/ 
+	margin-left:100px;
+	padding-left: 10px;
+	padding-top: 8px;
+    display: inline-block;    
+    text-decoration: none;
+	color: #FFFFFF;
+}

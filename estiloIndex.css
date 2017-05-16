@@ -1,0 +1,181 @@
+
+#div2{
+	
+	position: absolute;
+	font-size:15px;
+	font-family: Arial;
+	color:black;
+	left:50%;
+	top:110px;
+	margin-left: -400px;
+}
+#div2 button{
+	border-color: #000000;
+	box-shadow: 0 3px 0 0 #333333;
+    background-color: #38761d;
+	color: white;
+	position: absolute;
+	top: 105%;
+	left: 50%;
+	margin-left: -100px;
+	width: 200px;
+	height: 45px;
+}
+#div2 table{
+	text-align: center;
+	margin: 0;
+	border-spacing: 0;
+	background-color: #FFFFFF;
+	border: solid black 2px;
+}
+#div2 th{
+	height: 30px;
+}
+.time{
+    width: 32px;
+    height: 28px;
+}
+
+.jog img{
+	width: 150px;
+	height: 135px;
+
+}
+.jog2{
+	height: 28px;
+}
+.time img{
+   width: 28px;
+   height: 28px;
+   margin: -9px;
+   padding: 0;
+   border-spacing: 0;
+}
+.col{
+	text-align: center;
+}
+#div4{
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  margin-left: 150px;
+	
+
+}
+#div4 table{
+   border-spacing: 0;
+   border: solid black 2px;
+   border-bottom: none;
+   width: 300px;
+}
+#div4 td{
+	height: 35px;
+	border-bottom: solid rgba(0,0,0,0.25) 2px;
+}    
+#div4 th{
+	height: 25px;
+	text-align: left;
+	border-bottom: solid black 2px;
+	padding-left: 6px;
+}
+#form{
+	width: 300px;
+	color: #FFFFFF;
+	position: absolute;
+    left: 50%;
+    margin-left: 200px;
+
+
+}
+#form p{
+	margin-bottom: 2px;
+	margin-top: 5px;
+}
+#form a{
+	color: #FFFFFF;
+	font-size: 10.37px;
+	position: absolute;
+	left: 21%;
+	text-decoration:none;
+}
+.btnEntrar{
+	position: absolute;
+	top: 5%;
+	left: 57%;
+	width: 50px;
+	height: 50px;
+}
+body{
+	background-color: #EEEEEE;
+	font-family: futura md bt; 
+	
+}
+
+#cab1 img{ 
+float: left;
+width: 200px;
+margin: 17px 4% 0;
+}
+
+#cab1{	
+position: absolute;
+background-color:#38761d;
+top: 0px;
+left: 0px;
+width:100%;
+height:80px;
+
+}
+#cab2{
+position:absolute;
+left:0px;
+top:75px;
+background-color:#597EAA;
+width:100%;
+height:25px;
+}
+/* texto menu2 */
+#cab2 ul{
+	text-align: center;
+	margin-top: 3px;
+	margin-left:0%;
+    padding:0px;
+    list-style:none;
+}
+#cab2 li { display: inline; }
+
+#cab2 ul li a { /*estilo menu2*/ 
+    padding: 0 100px;
+    display: inline-block;    
+    text-decoration: none;
+	color: #000000;
+    
+}
+
+/*rodapé*/
+#rodGeral{
+   position:absolute;
+   top: 120%;
+   left: 0;
+   width:100%;
+   height:35px;   
+   background:#38761d;
+   
+   
+}
+#rodGeral ul{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+    list-style:none;
+}
+#rodGeral li { display: inline; }
+
+#rodGeral ul li a {
+	margin-left:100px;
+	padding-left: 10px;
+	padding-top: 8px;
+    display: inline-block;    
+    text-decoration: none;
+	color: #FFFFFF;
+}
